@@ -1,0 +1,30 @@
+{
+  "name": "smartfile",
+  "version": "1.0.0",
+  "description": "Light Document Management System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreichirila/smartfile.git"
+  },
+  "keywords": [
+    "DMS"
+  ],
+  "author": "Andrei Chirila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreichirila/smartfile/issues"
+  },
+  "homepage": "https://github.com/andreichirila/smartfile#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "rxjs": "^6.4.0"
+  }
+}
