@@ -1,0 +1,22 @@
+@import '../../../core-scss/mixins';
+@import '../../../core-scss/color-variables';
+
+:host {
+    display: inline-block;
+    padding: vw(10);
+    font-size: vw(14);
+    width: vw(120);
+    text-align: center;
+    border-radius: vw(3);
+    color: white;
+    background-color: green;
+    
+    input {
+        display: none;
+    }
+    
+    &:focus {
+        background-color: blue;
+    }
+    
+}
