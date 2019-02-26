@@ -23,7 +23,7 @@ export class DB {
                 host: 'localhost',
                 user: 'root',
                 password: pwd,
-                database: 'SmartFile',
+                database: 'SmartFenneck',
                 connectionLimit: 20
             }
         );
