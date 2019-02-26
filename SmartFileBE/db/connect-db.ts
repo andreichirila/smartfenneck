@@ -8,10 +8,13 @@ export class DB {
 
     public connectToDB(query) {
         return this.createPool().getConnection((err, conn) => {
-                if (err) throw err;
+            try {
                 conn.query(query);
                 conn.release();
-            });
+            } catch (e) {
+                throw e;
+            }
+        });
     }
 
     private createPool() {

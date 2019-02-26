@@ -38,8 +38,7 @@ class App {
             console.log('request ', req);
         });
         this.expressServer.post(AppRoutes.Upload, (req, res, next) => {
-            this.fileController.upload();
-            res.sendStatus(200);
+            return this.fileController.upload(req, res);
         });
     }
 
