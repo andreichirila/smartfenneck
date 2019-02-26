@@ -1,3 +1,3 @@
 # SmartFile
 
-Will be a central place to share and access files 
+Smart File is an Open Source Document Management System.
