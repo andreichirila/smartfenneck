@@ -3,13 +3,13 @@
 
 :host {
     display: inline-block;
-    padding: vw(10);
-    font-size: vw(14);
-    width: vw(120);
+    padding: vw(5);
+    font-size: vw(12);
+    width: vw(80);
     text-align: center;
-    border-radius: vw(3);
+    border-radius: vw(2);
     color: white;
-    background-color: green;
+    background-color: $sf-burnt-sienna;
     
     input {
         display: none;

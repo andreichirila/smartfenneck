@@ -1,0 +1,21 @@
+@import '../../../core-scss/mixins';
+@import '../../../core-scss/color-variables';
+
+$height: vw(50);
+
+:host {
+    height: $height;
+    display: block;
+    position: relative;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.26);
+    
+    header {
+        .wrapper {
+            display: block;
+            
+            img {
+                height: $height;
+            }
+        }
+    }
+}
