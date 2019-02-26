@@ -1,3 +1,3 @@
 # SmartFenneck
 
-Smart File is an Open Source Document Management System.
+SmartFenneck is an Open Source Document Management System.
