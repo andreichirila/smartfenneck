@@ -1,0 +1,6 @@
+@import '../core-scss/color-variables';
+
+:host {
+    display: block;
+    background-color: $sf-white-sand;
+}
